@@ -1,0 +1,28 @@
+body {
+background-color: rgb(218, 214, 214);
+
+}
+
+h1,
+h2 {
+color:rgb(0, 17, 255)
+    
+}
+
+.job-title {
+    background-color: rgb(17, 0, 255);
+    color:floralwhite
+    
+}
+
+#hight {
+    color:rgb(4, 0, 255)
+}
+
+.information {
+    color:rgb(3, 3, 3)
+}
+
+ul {
+background-color: rgb(143, 138, 143);
+}
