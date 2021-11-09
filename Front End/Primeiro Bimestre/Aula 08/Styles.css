@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+}
+
+body {
+    height: 2000px;
+}
+
+.p {
+    position: fixed;
+    background-color: cyan;
+}
+.square {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 12px;
+    
+}
+.first-square {
+    background-color: #ff5100;
+
+}
+
+.seconde-square {
+    background-color: #00ff2a;
+    
+}
+
+.third-square {
+    background-color: #0004ff;
+    
+    
+}

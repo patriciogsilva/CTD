@@ -1,11 +1,10 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;  
 }
+
 body{
-     
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -13,12 +12,11 @@ body{
 
 
 div {
-  
-  background-image: url(https://d3su274k37x9zf.cloudfront.net/wp-content/uploads/2019/06/GPGALO-CHUVA1.jpg);
-  height: 500px;
-  width: 1300px;
-  background-repeat: no-repeat;
-  background-position-y: center;
+    background-image: url(https://d3su274k37x9zf.cloudfront.net/wp-content/uploads/2019/06/GPGALO-CHUVA1.jpg);
+    height: 500px;
+    width: 1300px;
+    background-repeat: no-repeat;
+    background-position-y: center;
   
 }
 
