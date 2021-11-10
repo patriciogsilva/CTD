@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 2000PX;
+}
+
+header {
+    
+    background-color: #0000ff;
+    padding: 12px 32px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+main {
+    background-image: url(https://www.maisesports.com.br/wp-content/uploads/2018/06/Carinho-de-Supermercado-Fortnite.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+
