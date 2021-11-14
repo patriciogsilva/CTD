@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0000ff;
+}
+
+label, input{
+    display: block;
+}
+
+label {
+    color: #ff0000;
+}
+
+input {
+    padding: 3px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+form{
+    padding: 24px;
+    background-color: #4c555e;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+

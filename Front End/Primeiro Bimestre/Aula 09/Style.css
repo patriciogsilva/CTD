@@ -9,20 +9,91 @@ body {
 }
 
 header {
-    
     background-color: #0000ff;
     padding: 12px 32px;
     position: fixed;
     width: 100%;
     text-align: center;
+    color: #f8f8fa;
+    z-index: 100;
 }
 
-main {
+.imagem-fundo {
     background-image: url(https://www.maisesports.com.br/wp-content/uploads/2018/06/Carinho-de-Supermercado-Fortnite.png);
+    background-size: cover;
+    background-position-x:center;
+    background-position: center;
     height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
-    
 }
 
+.square {
+    width: 400px;
+    height: 530px;
+    background-color: #ffffff;
+    position:absolute; 
+    text-align: center; 
+    border-radius: 10px; 
+}
 
+.produto-01 {
+    top: 150PX;  
+}
+.image {
+    content:url(https://io2.convertiez.com.br/m/sbsmotos/shop/products/images/2470113/medium/oleo-mobil-4t-20w50_9304.png);
+    width: 350px;
+ }
+.botao {
+    display: block;
+    color: #ffffff;
+    background-color: #6464c4;
+    cursor: pointer;
+    border: 2px solid #ff0101;
+    padding: 20px;
+    border-radius: 100px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:30px;
+}
+
+.produto-02{
+    left: 460px;
+    top: 150PX; 
+}
+
+.image2 {
+    content:url(https://images.tcdn.com.br/img/img_prod/683582/kit_relacao_honda_titan_fan_start_cargo_160_2016_2020_riffel_24677_1_c205721a2d818a1d9e2415e92170f211.jpg);
+    width: 350px;
+ }
+
+ .produto-03{
+     left: 920PX;
+     top: 150px;
+ }
+
+ .image3 {
+     content:url(https://www.excelsiorpneus.com.br/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/1/1/11831-1_1.jpg);
+     width: 350px;
+ }
+
+ .produto-04 {
+     left: 1380px;
+     top: 150px;
+ }
+
+.image4 {
+    content: url(https://penoestribo.vteximg.com.br/arquivos/ids/207352-800-800/215685_CAPACETE_DRAKEN_UK_MATT_PT_CZ_FRENTE.jpg?v=637541138202130000);
+    width: 350px;
+}
+.icone img {
+    position: fixed;
+    bottom: 23px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 997;
+    bottom: 45px;
+    right: 24px;
+    width: 100px;
+    border-radius: 10px;
+}

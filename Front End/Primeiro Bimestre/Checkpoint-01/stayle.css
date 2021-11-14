@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-image: url(https://blog.luckreceptivo.com.br/wp-content/uploads/2016/12/salvador.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+    
+}
+
+header {
+    color: #ffffff;
+    background-color: #1900ff;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    font-family: 'Fugaz One', cursive;
+    font-size: 30px;
+}
+
+main {
+    padding: 150px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 25px;   
+}
+
+h2 {
+    color: #4400ff;
+    background-color: #ffffff;
+}
+
+iframe {
+   width: 1280px;
+   height: 720px; 
+   margin: 24px auto;
+}
+
+ul {
+    background-color: #ffffff;
+}
+
+.insta img {
+    position: fixed;
+    bottom: 23px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 998;
+    bottom: 45px;
+    right: 24px;
+    width: 100px;
+}
+
+.tube img {
+    position: fixed;
+    bottom: 23px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 998;
+    bottom: 150px;
+    right: 24px;
+    width: 100px;
+}
