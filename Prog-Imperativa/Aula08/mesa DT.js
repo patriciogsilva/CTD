@@ -12,11 +12,11 @@ function podeSubir(altura, acompanhada) {
     }
 
     else {
-        console.log("não poderá subir, nem acompanhada.")
+        console.log("Acesso negado, não poderá subir, nem acompanhada.")
     }
 
     return podeSubir
 
 }
 
-console.log(podeSubir(1.4, true));
+console.log(podeSubir(1, true));
