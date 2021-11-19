@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    padding: 32px;
+}
+
+.persona-imput:hover {
+    margin-left: 0;
+}
+.menu li{
+    color: blueviolet;
+    background-color: burlywood;
+    border-radius: 6px;
+    width: fit-content;
+    margin-bottom: 12px;
+}
+
+input:focus {
+    background-color: blueviolet;    
+}
+
+.main-button {
+    border: none;
+    padding: 12px 24px;
+    background-color: aqua;
+    border-radius: 12px;
+    transition: .4s;
+}
+
+label{
+    font-size: 16px;
+}
+
+input {
+    background-color: burlywood;
+    margin-left: 12px;
+    border-radius: 16px;
+    padding: 6px 12px;
+    border: none;
+    transition: .4s;
+}
+
+.main-button:hover{
+    background-color: blue;
+    color: brown;
+    border-radius: 32px;
+}
+
+.person {
+    width: 15px;
+    height: 15px;
+    transition: .4s;
+
+}
+ .person:checked {
+    width: 25px;
+    height: 25px;
+ }
+ p {
+     margin-top: 12px;
+ }
+
+ p::before{
+     content: '👀';
+ }
+
+ p::after{
+    content: '👀';
+}
+
+p::first-line{
+    background-color: burlywood;
+}
+
+p:: ::first-letter{
+    font-size: 72px;
+}

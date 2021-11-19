@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    background-color: #ffe4c4;
+    height: 1200px;
+}
+
+form {
+    margin-left: 20px;
+    margin-top: 20px;
+    background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1608/Delicious_cake_coffee_cup-2016_Food_HD_Wallpaper_1366x768.jpg);
+}
+
+h1 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ff0000;
+    font-size: 60px;
+    font-family: 'Lobster', cursive;
+}
+div {
+    margin-bottom: 6px;
+}
+
+legend {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+input {
+    margin-left: 10px;
+}
+
+div {
+    margin-top: 15px;
+}
+
+button {
+    margin-right: 20px;
+}

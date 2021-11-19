@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://wallpaperforu.com/wp-content/uploads/2020/08/vintage-wallpaper-20082915084021-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+    height: 1200px;
+}
+
+for {
+    font-size: 30px;
+}
+
+div {
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+legend {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: #2600ff;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: silver;
+    color: #0400ff; 
+}
+
+input [type = "date"] :disabled {
+    background-color: #0400ff;
+}
+
+h3 {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.style-checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+label:nth-child(even) {
+    background-color: #a3bed8;
+}
+
+input {
+    background-color: #d8bfd8;
+}
+
+input:focus {
+    background-color: #ff0000;
+    transition: 2s;
+}
+
+input:hover {
+    background-color: #8e7aff;
+    transition: 3s;
+}
+
+p {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+p::first-letter {
+    font-size: 32px;
+}

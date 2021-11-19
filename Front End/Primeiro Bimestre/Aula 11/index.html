@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="indexstayle.css">
+</head>
+
+<body>
+
+    <form>
+
+        <h1>Controle de alunos</h1>
+
+
+        <fieldset>
+            <legend>informações pessoais</legend>
+
+            <label for="username">Nome do aluno</label>
+            <input type="text" name="username" id="username">
+
+            <label for="Sobrenome">Sobrenome</label>
+            <input type="text" name="Sobrenome" id="Sobrenome">
+
+            <label for="NomeResponsavel">Nome do responsavel</label>
+            <input type="text" name="NomeResponsavel" id="NomeResponsavel">
+
+            <label for="Endereço">Endereço</label>
+            <input type="text" name="Endereço" id="Endereço">
+        </fieldset>
+
+        <fieldset>
+            <legend>informações</legend>
+
+            <label for="infor">Informações Adicionais</label>
+            <textarea name="infor" id="infor"></textarea>
+
+            <label for="Série">Série</label>
+            <select name="Série" id="Série">
+                <option value="1">1ª Série</option>
+                <option value="2">2ª Série</option>
+                <option value="3">2ª Série</option>
+                <option value="4">2ª Série</option>
+                <option value="5">2ª Série</option>
+                <option value="6">2ª Série</option>
+                <option value="7">2ª Série</option>
+            </select>
+
+            <label for="Turno">Turno</label>
+            <select name="Turno" id="Turno">
+                <option value="1">Matutino</option>
+                <option value="2">Vespertino</option>
+            </select>
+
+            <div>
+                <label for="birthDate">data de nascimento</label>
+                <input type="date" name="birthDate" id="birthDate" min="2018-01-01" max="2024-10-05">
+            </div>
+
+            <button type="reset">Limpar</button>
+            <button type="submit">Salvar</button>
+
+            <div>
+                <input type="radio" name="person" id="pj" value="pessoa juridica" </input>
+                <label for="">pessoa fisica</label>
+            </div>
+
+            <div>
+                <input type="radio" name="person" id="pj" value="pessoa juridica" </input>
+                <label for="">pessoa fisica</label>
+            </div>
+        </fieldset>
+    </form>
+
+    </main>
+
+</body>
+
+</html>
