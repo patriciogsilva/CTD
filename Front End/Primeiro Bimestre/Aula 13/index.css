@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 32px;
+}
+
+.main-botton {
+    border: none;
+    padding: 12px;
+    font-size: 25px;
+    background-color: blue;
+    border-radius: 12px;
+    transition-duration: 0.3s;
+transition-timing-function: ease-in-out;
+
+}
+
+.main-botton:hover {
+    background-color: rgb(137, 137, 235);
+    transform: scale(1.4);
+}
