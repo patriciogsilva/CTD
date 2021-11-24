@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1511/Blurry_blue_background-Theme_HD_Wallpaper_1366x768.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    padding: 15px;
+    background-color: #9faebd;
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 12px;
+    margin-top: 80px;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://www.bceleva.com.br/wp-content/uploads/2020/04/wallpaper-azul-papel-de-parede-azul-fundo-5.jpg);
+}
+
+h1 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    text-shadow: -4px 4px 4px #333333;
+}
+
+legend {
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+    margin-left: 2px;
+}
+
+label {
+    margin-right: 15px;
+    margin-left: 3px;
+}
+
+input {
+    margin-left: 3px;
+}
+
+div {
+    margin-top: 15px;
+}
+
+h3 {
+    margin-top: 15px;
+}
+
+button {
+    margin-top: 25px;
+    margin-right: 20px;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+    background-color: blue;
+    border-radius: 12px;
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.09);
+    transition: 0.2s;
+}
+

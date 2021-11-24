@@ -5,6 +5,50 @@
 }
 
 
-div {
-    padding: 50px;
+img {
+    padding: 60px;
+    max-width: 100%;
+    width: 420px;
+    height: 250px;
+    object-fit: cover;
+    transition: 4s;
+}
+
+@keyframes percorer {
+    0%{
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100;
+    }
+}
+
+.carro1:hover {
+    transform: translate(500px);
+    animation-name: percorer;
+    animation-duration: 2s;
+
+}
+
+.carro2:hover {
+rotate: 90deg;
+}
+
+.carro3 {
+    background-color: #0000ff;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin-left: 100px; 
+    border: 0;
+    border-radius: 12px;
+    transition-duration: 2s;
+}
+.carro3:hover {
+    background-color: #9292f5;
 }

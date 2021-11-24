@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Index.css">
+</head>
+
+<body>
+
+    <main>
+        <form>
+            <h1>Cadastro de Usuário</h1>
+
+            <fieldset>
+                <legend>Informações pessoais</LEGend>
+                <div>
+                    <label for="username">Nome de Usuário</label>
+                    <input type="text" name="username" maxlength="100" id="username">
+                </div>
+                <div>
+                    <label for="emailUser">E-mail</label>
+                    <input type="email" name="emailUser" id="emailUser">
+                </div>
+
+                <div>
+                    <label for="tel">Telefone</label>
+                    <input type="number" name="tel" id="tel">
+                </div>
+
+                <div>
+                    <label for="nascimento">Data de nascimento</label>
+                    <input type="date" name="nascimento" id="nas">
+                </div>
+
+                <div>
+                    <input type="radio" name="idade" id="maiorIdade" value="maiorId">
+                    <label for="maiorIdade">Maior de idade</label>
+
+                    <input type="radio" name="idade" id="menorIdade" value="maiorId">
+                    <label for="menorIdade">Menor de idade</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Ponto de interesse na cidade</legend>
+                <input type="radio" name="interesse" id="historia" value="historia">
+                <label for="historia">História</label>
+                <input type="radio" name="interesse" id="gastronomia" value="gastronomia">
+                <label for="gastronomia">Gastronomia</label>
+                <input type="radio" name="interesse" id="cultura" value="cultura">
+                <label for="cultura">Cultura</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Quais os seus interesses na cidade</legend>
+                <input type="checkbox" name="interesses" id="interesse01">
+                <label for="interesse01">Turista</label>
+                <input type="checkbox" name="interesses" id="interesse02">
+                <label for="interesse02">Residente</label>
+                <input type="checkbox" name="interesses" id="interesse03">
+                <label for="interesse03">Estudante</label>
+
+            </fieldset>
+
+            <button type="submit">Enviar Formulário</button>
+            <button type="reset">Limpar Formulário</button>
+
+
+        </form>
+    </main>
+
+</body>
+
+</html>
