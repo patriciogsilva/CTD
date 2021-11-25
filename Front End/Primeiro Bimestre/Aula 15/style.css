@@ -31,7 +31,7 @@ aside {
     grid-area: aside;
     height: 400px;
     padding: 5px;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 main {
@@ -39,9 +39,9 @@ main {
     grid-area: main;
     padding: 20px;
     display: block;
-    padding-top: 50px;
-    
+    padding-top: 50px; 
 }
+
 img {
     max-width: 100%;
     width: 700px;

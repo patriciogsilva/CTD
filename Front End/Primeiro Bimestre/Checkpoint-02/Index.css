@@ -13,7 +13,6 @@ body {
 
 form {
     padding: 15px;
-    background-color: #9faebd;
     width: 800px;
     margin: 0 auto;
     border-radius: 12px;
@@ -22,19 +21,18 @@ form {
     background-image: url(https://www.bceleva.com.br/wp-content/uploads/2020/04/wallpaper-azul-papel-de-parede-azul-fundo-5.jpg);
 }
 
-h1 {
-    margin-bottom: 10px;
+.titulo {
     text-align: center;
     color: #ffffff;
     font-size: 50px;
-    text-shadow: -4px 4px 4px #333333;
+    text-shadow: -4px 4px 4px #000000;
 }
 
 legend {
     font-size: 20px;
     margin-top: 15px;
     font-weight: bold;
-    margin-left: 2px;
+    margin-left: 10px;
 }
 
 label {
@@ -42,15 +40,7 @@ label {
     margin-left: 3px;
 }
 
-input {
-    margin-left: 3px;
-}
-
 div {
-    margin-top: 15px;
-}
-
-h3 {
     margin-top: 15px;
 }
 
@@ -62,7 +52,6 @@ button {
     font-size: 20px;
     background-color: blue;
     border-radius: 12px;
-    transition-duration: 0.3s;
 }
 
 button:hover {
