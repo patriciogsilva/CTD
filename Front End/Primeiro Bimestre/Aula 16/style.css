@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns:790px 1fr;
+    grid-template-areas: 
+    'header header'
+    'main aside'
+    ;
+}
+
+header {
+    background-color: rgb(20, 20, 20);
+    grid-area: header;
+    height: 70px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+
+main {
+    background-color: rgb(34, 34, 34);
+    grid-area: main; 
+    padding: 20px;
+    margin-top: 70px;
+    display: block;
+}
+
+aside {
+    background-color: rgb(34, 34, 34);
+    grid-area: aside;
+    height: 1000px;
+    padding: 20px;
+    margin-top: 70px;
+}
+
+.header {
+    color: white;
+}
+
+.videoPrincipal {
+    width: 750px;
+    height: 400px;
+}
+
+.video01 {
+    color: white;
+}
+
+.subVideo01 {
+    color: white;
+    font-size: 15px;
+}
+
+iframe {
+    width: 750px;
+    height: 400px; 
+}
+
+section {
+    display: flex;
+    margin-bottom: 15px;
+    
+}
+
+section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img1 {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+span {
+    margin-left: 10px;
+}
+span h1 {
+    font-size: 20px;
+    color: white;
+}
+
+span h2, h3, p {
+    font-size: 10px;
+    color: white;
+}
+
+
+
+
+
+
+
