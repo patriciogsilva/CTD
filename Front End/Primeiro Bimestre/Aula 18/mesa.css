@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.menu {
+    background-color: #242427;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 40px;
+    height: 25px;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+.titulo {
+    color: #ffe4c4;
+}
+
+.conteudo01 {
+    background-image: url(https://i3.wp.com/blogdosuperapple.com.br/wp-content/uploads/2019/06/macOS-Catalina-Dark-Mode.jpg);
+    height: 100vh;
+    background-size: cover;
+    gap: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+}
+
+img {
+    width: 180px;
+    height: 100px;
+}
+
+.colunas {
+    background-color: #e69e47;
+    height: 100vh;
+    display: flex;
+    padding: 60px 20px;
+}
+
