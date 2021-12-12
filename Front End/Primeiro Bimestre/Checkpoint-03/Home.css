@@ -1,0 +1,145 @@
+/*Header---------------------------------------*/
+header {
+  position: relative;
+  top: 0;
+}
+
+.collapse {
+  margin-left: 700px;
+}
+
+/*Section----------------------------------------*/
+.banner {
+  width: 100%;
+  height: 460px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url(https://cdn.tmobile.com/content/dam/t-mobile/ntm/specific-use/netflix/bg/619306-bg-full-netflix-grid-v2.desktop.jpg);
+  background-size: cover;
+}
+
+.cx01 {
+  width: 100%;
+  padding: 10px
+}
+
+.cx02 {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.txt01 {
+  font-weight: bold;
+  color: #ff0000;
+  font-size: 50px;
+  margin-left: -400px;
+}
+
+.txt02 {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.btn-inicial {
+  background-color: #09ff0009;
+  border: 1px solid #09ff008f;
+  color: #ffffff;
+  position: absolute;
+  width: 200px;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  border-radius: 5px;
+  display: block;
+}
+
+@media (max-width: 420px) {
+  .txt01 {
+     text-align: center;
+     margin-right: -400px;
+  }
+  
+  .btn-inicial {
+    top: 40%;
+  }
+}
+
+/*Main------------------------------------------*/
+main {
+  background-color: #e2e2e2;
+}
+
+.row {
+  padding: 20px;
+}
+
+.main-titulo {
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.card {
+  background-color: #dbdada;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: green;
+  border-radius: 10px;
+}
+
+/*Footer-----------------------------------------*/
+footer {
+  width: 100%;
+  height: 250px;
+  background-color: #000000;
+  color: white;
+}
+
+.col {
+  margin-top: 30px;
+}
+
+.membro1,
+.membro2,
+.membro3 {
+  font-size: 20px;
+}
+
+.sub1,
+.sub2,
+.sub3 {
+  font-size: 12px;
+}
+
+.icon-linkedin,
+.icon-github {
+  width: 15px;
+}
+
+.indice1 {
+  text-align: left;
+}
+
+.indice2 {
+  text-align: center;
+}
+
+.indice3 {
+  text-align: right;
+}
+
+.rodape {
+  font-size: 15px;
+  text-align: center;
+  padding: 30px;
+}
